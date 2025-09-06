@@ -50,10 +50,10 @@
 
             display-name = "Lower";
             bindings = <
-&kp TAB     &kp N1        &kp N2        &kp N3        &kp N4        &kp N5          &kp MINUS  &HR_Mod AMPERSAND N7   &HR_Mod STAR N8      &HR_Mod LPAR N9         &kp ASTERISK  &kp BSPC
-&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &kp PLUS   &HR_Mod DLLR NUMBER_4  &HR_Mod PRCNT N5     &HR_Mod CARET NUMBER_6  &kp SLASH     &trans
-&kp LSHFT   &trans        &trans        &trans        &trans        &trans          &kp EQUAL  &HR_Mod EXCL NUMBER_1  &HR_Mod AT NUMBER_2  &HR_Mod HASH NUMBER_3   &kp PERIOD    &trans
-                                        &kp LGUI      &trans        &kp DELETE      &kp RET    &HR_Mod RPAR N0        &kp RALT
+&kp TAB    &kp N1  &kp N2    &kp UP_ARROW  &kp N4     &kp N5        &kp MINUS  &HR_Mod AMPERSAND N7   &HR_Mod STAR N8      &HR_Mod LPAR N9         &kp ASTERISK  &kp BSPC
+&trans     &trans  &kp LEFT  &kp DOWN      &kp RIGHT  &trans        &kp PLUS   &HR_Mod DLLR NUMBER_4  &HR_Mod PRCNT N5     &HR_Mod CARET NUMBER_6  &kp SLASH     &trans
+&kp LSHFT  &trans  &trans    &trans        &trans     &trans        &kp EQUAL  &HR_Mod EXCL NUMBER_1  &HR_Mod AT NUMBER_2  &HR_Mod HASH NUMBER_3   &kp PERIOD    &trans
+                             &kp LGUI      &trans     &kp DELETE    &kp RET    &HR_Mod RPAR N0        &kp RALT
             >;
         };
 
@@ -66,9 +66,9 @@
 
             display-name = "Raise";
             bindings = <
-&kp TAB    &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT    &kp CARET  &kp AMPS   &kp KP_MULTIPLY  &kp LPAR  &kp RPAR  &kp BSPC
-&kp LCTRL  &trans    &trans  &trans    &trans    &trans       &kp MINUS  &kp EQUAL  &kp LBKT         &kp RBKT  &kp BSLH  &kp GRAVE
-&kp LSHFT  &trans    &trans  &trans    &trans    &trans       &kp UNDER  &kp PLUS   &kp LBRC         &kp RBRC  &kp PIPE  &kp TILDE
+&kp TAB    &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT    &kp CARET  &kp AMPS   &kp KP_MULTIPLY  &kp LPAR  &bt BT_SEL 4  &bt BT_SEL 3
+&kp LCTRL  &trans    &trans  &trans    &trans    &trans       &kp MINUS  &kp EQUAL  &kp LBKT         &kp RBKT  &bt BT_SEL 2  &bt BT_SEL 1
+&kp LSHFT  &trans    &trans  &trans    &trans    &trans       &kp UNDER  &kp PLUS   &kp LBRC         &kp RBRC  &bt BT_SEL 0  &bt BT_CLR
                              &kp LGUI  &trans    &kp SPACE    &kp RET    &trans     &kp RALT
             >;
         };
