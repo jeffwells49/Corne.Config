@@ -34,10 +34,10 @@
 
             display-name = "Base";
             bindings = <
-&kp TAB    &kp Q  &kp W  &kp E     &kp R                 &kp T        &kp Y    &kp U                  &kp I      &kp O    &kp P     &kp BSPC
-&kp LCTRL  &kp A  &kp S  &kp D     &HR_Mod LEFT_SHIFT F  &kp G        &kp H    &HR_Mod RIGHT_SHIFT J  &kp K      &kp L    &kp SEMI  &kp SQT
-&kp LSHFT  &kp Z  &kp X  &kp C     &kp V                 &kp B        &kp N    &kp M                  &kp COMMA  &kp DOT  &kp FSLH  &kp ESC
-                         &kp LGUI  &mo 1                 &kp SPACE    &kp RET  &mo 2                  &kp RALT
+&kp TAB         &kp Q            &kp W                &kp E                   &kp R                 &kp T         &HR_Mod RC(Y) Y  &kp U                  &kp I                    &kp O    &kp P     &kp ESCAPE
+&kp LEFT_ARROW  &HR_Mod LG(A) A  &HR_Mod LG(LS(S)) S  &HR_Mod LEFT_CONTROL D  &HR_Mod LEFT_SHIFT F  &kp G         &kp H            &HR_Mod RIGHT_SHIFT J  &HR_Mod RIGHT_CONTROL K  &kp L    &kp SEMI  &kp RIGHT_ARROW
+&kp DOWN        &HR_Mod LC(Z) Z  &HR_Mod LC(X) X      &HR_Mod LC(C) C         &HR_Mod LC(V) V       &kp B         &HR_Mod RC(N) N  &kp M                  &kp COMMA                &kp DOT  &kp FSLH  &kp UP_ARROW
+                                                      &mo 1                   &kp BACKSPACE         &kp DELETE    &kp RET          &kp SPACE              &mo 2
             >;
         };
 
@@ -50,10 +50,10 @@
 
             display-name = "Lower";
             bindings = <
-&kp TAB     &kp N1        &kp N2        &kp N3        &kp N4        &kp N5          &kp N6    &kp N7    &kp N8    &kp N9     &kp N0  &kp BSPC
-&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &kp LEFT  &kp DOWN  &kp UP    &kp RIGHT  &trans  &trans
-&kp LSHFT   &trans        &trans        &trans        &trans        &trans          &trans    &trans    &trans    &trans     &trans  &trans
-                                        &kp LGUI      &trans        &kp SPACE       &kp RET   &trans    &kp RALT
+&kp TAB     &kp N1        &kp N2        &kp N3        &kp N4        &kp N5          &kp MINUS  &HR_Mod AMPERSAND N7   &HR_Mod STAR N8      &HR_Mod LPAR N9         &kp ASTERISK  &kp BSPC
+&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &kp PLUS   &HR_Mod DLLR NUMBER_4  &HR_Mod PRCNT N5     &HR_Mod CARET NUMBER_6  &kp SLASH     &trans
+&kp LSHFT   &trans        &trans        &trans        &trans        &trans          &kp EQUAL  &HR_Mod EXCL NUMBER_1  &HR_Mod AT NUMBER_2  &HR_Mod HASH NUMBER_3   &kp PERIOD    &trans
+                                        &kp LGUI      &trans        &kp DELETE      &kp RET    &HR_Mod RPAR N0        &kp RALT
             >;
         };
 
