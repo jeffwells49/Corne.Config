@@ -37,8 +37,8 @@
             bindings = <
 &kp TAB   &kp Q            &kp W                &kp E                   &kp R                 &kp T         &HR_Mod RC(Y) Y  &kp U                  &kp I                    &kp O                &kp P     &kp ESCAPE
 &kp CAPS  &HR_Mod LG(A) A  &HR_Mod LG(LS(S)) S  &HR_Mod LEFT_CONTROL D  &HR_Mod LEFT_SHIFT F  &kp G         &kp H            &HR_Mod RIGHT_SHIFT J  &HR_Mod RIGHT_CONTROL K  &HR_Mod RIGHT_ALT L  &kp SEMI  &kp APOS
-&kp ESC   &HR_Mod LC(Z) Z  &HR_Mod LC(X) X      &HR_Mod LC(C) C         &HR_Mod LC(V) V       &kp B         &HR_Mod RC(N) N  &kp M                  &kp COMMA                &kp DOT              &kp FSLH  &kp LEFT_ARROW
-                                                &mo 1                   &kp BACKSPACE         &kp DELETE    &kp RET          &kp SPACE              &mo 2
+&mo 2     &HR_Mod LC(Z) Z  &HR_Mod LC(X) X      &HR_Mod LC(C) C         &HR_Mod LC(V) V       &kp B         &HR_Mod RC(N) N  &kp M                  &kp COMMA                &kp DOT              &kp FSLH  &kp LEFT_ARROW
+                                                &mo 1                   &kp BACKSPACE         &kp DELETE    &kp RET          &kp SPACE              &mo 1
             >;
         };
 
@@ -53,7 +53,7 @@
             bindings = <
 &kp TAB    &HR_Mod TILDE GRAVE  &trans    &kp UP_ARROW  &trans          &trans        &kp MINUS  &HR_Mod AMPERSAND N7   &HR_Mod STAR N8      &HR_Mod LPAR N9         &kp ASTERISK  &kp BSPC
 &trans     &trans               &kp LEFT  &kp DOWN      &kp RIGHT       &trans        &kp PLUS   &HR_Mod DLLR NUMBER_4  &HR_Mod PRCNT N5     &HR_Mod CARET NUMBER_6  &kp SLASH     &kp RA(RC(M))
-&kp LSHFT  &trans               &trans    &trans        &trans          &trans        &kp EQUAL  &HR_Mod EXCL NUMBER_1  &HR_Mod AT NUMBER_2  &HR_Mod HASH NUMBER_3   &kp PERIOD    &tog 0
+&kp LSHFT  &trans               &trans    &trans        &trans          &trans        &kp EQUAL  &HR_Mod EXCL NUMBER_1  &HR_Mod AT NUMBER_2  &HR_Mod HASH NUMBER_3   &kp PERIOD    &kp RIGHT_ARROW
                                           &tog 0        &kp LEFT_SHIFT  &kp DELETE    &kp RET    &HR_Mod RPAR N0        &kp RALT
             >;
         };
@@ -69,7 +69,7 @@
             bindings = <
 &kp F1  &kp F2  &kp F3  &kp F4    &kp F5   &kp F6       &kp CARET  &kp AMPS   &kp KP_MULTIPLY  &kp LPAR  &bt BT_SEL 4  &bt BT_SEL 3
 &kp F7  &kp F8  &kp F9  &kp F10   &kp F11  &kp F11      &kp MINUS  &kp EQUAL  &kp LBKT         &kp RBKT  &bt BT_SEL 2  &bt BT_SEL 1
-&tog 0  &trans  &trans  &trans    &trans   &trans       &kp UNDER  &kp PLUS   &kp LBRC         &kp RBRC  &bt BT_SEL 0  &bt BT_CLR
+&trans  &trans  &trans  &trans    &trans   &trans       &kp UNDER  &kp PLUS   &kp LBRC         &kp RBRC  &bt BT_SEL 0  &bt BT_CLR
                         &kp LGUI  &trans   &kp SPACE    &kp RET    &trans     &kp RALT
             >;
         };
