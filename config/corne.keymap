@@ -54,7 +54,7 @@
             display-name = "Lower";
             bindings = <
 &kp TAB    &trans  &trans    &kp UP_ARROW  &trans     &trans        &kp MINUS  &HR_Mod AMPERSAND N7   &HR_Mod STAR N8      &HR_Mod LPAR N9         &kp ASTERISK  &kp BSPC
-&trans     &trans  &kp LEFT  &kp DOWN      &kp RIGHT  &trans        &kp PLUS   &HR_Mod DLLR NUMBER_4  &HR_Mod PRCNT N5     &HR_Mod CARET NUMBER_6  &kp SLASH     &trans
+&trans     &trans  &kp LEFT  &kp DOWN      &kp RIGHT  &trans        &kp PLUS   &HR_Mod DLLR NUMBER_4  &HR_Mod PRCNT N5     &HR_Mod CARET NUMBER_6  &kp SLASH     &kp RA(RC(M))
 &kp LSHFT  &trans  &trans    &trans        &trans     &trans        &kp EQUAL  &HR_Mod EXCL NUMBER_1  &HR_Mod AT NUMBER_2  &HR_Mod HASH NUMBER_3   &kp PERIOD    &mo 0
                              &kp LGUI      &trans     &kp DELETE    &kp RET    &HR_Mod RPAR N0        &kp RALT
             >;
